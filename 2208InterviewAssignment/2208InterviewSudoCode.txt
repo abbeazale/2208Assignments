@@ -1,0 +1,37 @@
+2208 interview code
+
+
+
+Validate an ipaddress (IPV4)
+	Given an address as a string detrermine if its a valid ipv4 address or not
+	ab address is valid if it is in th eform x.x.x.x,
+	where each ex is a number from 0-255
+
+
+===============================================================================================
+create string variable
+seperatre string into array by '.'
+parse the string 
+check how many itemss are in each array if more than four its wtong
+make if statenebnt if the numbers are between 0 and 255 
+
+
+===============================================================================================
+
+string ipaddress
+string[] ipgroups
+
+ipaddress.split('.')
+for( var i = 0; i < ipgroups.Lerngth; i++){
+	
+
+	if(igroups.Lenth==4){
+		
+		if(ipgroups > 0 && ipgroups < 25){
+			"ipisvalid"
+		} else {
+			"ipisinvalid"	
+		}
+	} else { "ipisinvalid" }
+} 
+
